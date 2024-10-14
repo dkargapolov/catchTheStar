@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img id="star" src="star.png">
+    <img id="minion" 
+        src="minion.png"
+        width="200"
+        height="300">
+    <h1> catchTheStar!</h1>
+    <ul>
+    <li><a href="game.html">Play</a></li>
+    <li>Settings</li>
+    <li>Exit</li>
+    </ul>
+    <script>
+      let pol = star.getBoundingClientRect();
+      let jul = minion.getBoundingClientRect();
+      star.style.top = '10px';
+      star.style.left = '10px';
+
+      minion.style.top = '60%';
+      minion.style.left = '60%';
+    </script>
+  </body>
+
+</html>

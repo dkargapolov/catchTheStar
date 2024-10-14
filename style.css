@@ -1,0 +1,66 @@
+/* Add your styles here */
+.protest-riot-regular {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  position: absolute;
+  color: yellow;
+  top: 5%;
+  left: 35%;
+  font-size: 7.2rem;
+  
+}
+
+ul {
+  position: absolute;
+  font-size: 4.5rem;
+  top: 20%;
+  left: 10%;
+}
+
+li {
+  color: yellow;
+  padding: 5%;
+}
+
+li:hover{
+  background-color: rgba(214, 219, 85, 0.587);
+  border-radius: 30%;
+}
+
+a {
+  color: yellow;
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: yellow;
+  text-decoration: none;
+}
+
+
+#minion {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  
+  #star {
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  body {
+    width: 100vh;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: 0 url("background.png");
+    font-family: "Protest Riot", sans-serif;
+    background-size: cover;
+  }
+  
